@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    width: 1000px;
+    text-align: center;
+    margin: 60px auto;
+    border: 1px solid red;
+}
+h1{
+    text-align: center;
+    
+}
+.webDesign{
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.div1{
+    transform: translate(-30px, 40px);
+}
+.div2{
+    transform: rotate(30deg);
+}
+.div3{
+    transform: skew(20deg, 40deg);
+}
+.div4{
+    transform: scale(1.5);
+}
+.wrapper2{
+    width: 1000px;
+    text-align: center;
+    margin: 60px auto;
+    border: 1px solid red;
+}
+.hoverAnimation{
+    height: 150px;
+    width: 150px;
+    background-color: orangered;
+    margin-right: 20px;
+    display: inline-block;
+    transition: 1s;
+}
+
+.div5:hover{
+    transform: translate(-30px, 40px);
+}
+.div6:hover{
+    transform: rotate(90deg);
+}
+.div7:hover{
+    transform: skew(20deg, 40deg);
+}
+.div8:hover{
+    transform: scale(1.5);
+}
+.imagewrapper{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 20px;
+}
+.imagewrapper img{
+    max-width: 80%;
+    cursor:pointer;
+    transition: 1s;
+}
+.imagewrapper img:hover{
+    transform: scale(2);
+}
+.imgwrapper{
+    width: 250px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    padding: 20px;
+    margin-top: 30px;
+}
+.imgwrapper img{
+    max-width: 80%;
+    cursor:pointer;
+    transition: 1s;
+}
+.imgwrapper img:hover{
+    transform: scale(2) rotate(360deg);
+}
